@@ -1,0 +1,118 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header > div{
+    min-width: 200px;
+
+}
+.header .Logo{
+    text-align: center;
+    display: flex;
+    font-size: 3rem;
+    list-style: none;
+}
+.header .Logo li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    color: rgb(38, 81, 210);
+}
+.header .menu ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.header .menu ul li{
+    padding: 20px;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+.header .menu ul li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(54, 201, 246);
+}   
+.dau img{
+   width: 100%;
+   height: 510px;
+} 
+.giua{
+    display: flex;
+}
+.giua ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.giua ul li img{
+    width: 100%;
+    height: 250px;
+}
+.giua ul h3{
+    text-align: center;
+    position: absolute;
+    top: 110%;
+    margin-left: 110px;
+    
+}
+.gancuoi h1{
+    padding-left: 100px;
+    text-transform: capitalize;
+    color: rgb(21, 21, 59);
+}
+.gancuoi ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.gancuoi ul li img{
+    width: 100%;
+}
+.gancuoi ul li h3{
+    font-size: 1.5rem;
+    text-align: center;
+    position: absolute;
+    color: white;
+    top: 159%;
+    margin-left: 150px;
+}
+
+.cuoi ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.cuoi ul li{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ,black ;
+    font-weight: 800;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+.cuoi .t2{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    font-size: 1.2em  ;
+}
+.cuoi .t3{
+    margin-left: 75px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-family: 'Times New Roman';
+    font-size: 1.2rem;
+}
